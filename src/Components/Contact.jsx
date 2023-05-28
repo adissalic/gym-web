@@ -12,10 +12,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_vr9milh",
-        "template_xfi51zw",
+        "",
+        "",
         form.current,
-        "-NSKt9mjtMMAwH5Mz"
+        ""
       )
       .then(
         (result) => {
